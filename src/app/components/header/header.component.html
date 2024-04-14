@@ -1,0 +1,16 @@
+<header class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="#"><img ngSrc="./assets/logo.png" width="40" height="40" priority></a>
+        </div>
+        <div (click)="toggleMenu()" class="menu_opener">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <nav [ngClass]="{'opened': isMenuOpen}" *ngIf="isMenuOpen">
+        <a href="#" class="">Blog</a>
+        <a href="#" class="button">Contato</a>
+    </nav>
+</header>

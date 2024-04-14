@@ -1,0 +1,87 @@
+
+.container{
+    width: 100%;
+    max-width: 1224px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    flex: 1;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_opener{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+}
+
+.menu_opener span{
+    display: block;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #141c3a;
+}
+
+header nav{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+header nav.opened{
+    display: flex;
+}
+
+
+header nav a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #141c3a;
+}
+
+@media (width > 600px){
+    header{
+        flex-direction: row;
+    }
+    .menu_opener{
+        display: none;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/* remover depois */
+
+header nav a.button{
+    display: inline-block;
+    border: 0.2rem solid #6E07F3;
+    color: #6E07F3;
+    border-radius:1.5rem;
+    padding: 0.8rem 1.5rem;
+    transition: all ease .2s;
+}
+
+header nav a.button:hover{
+    color: #fff;
+    background-color:#6E07F3;
+}
