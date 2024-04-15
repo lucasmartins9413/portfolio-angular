@@ -9,7 +9,11 @@
             <span></span>
         </div>
     </div>
-    <nav [ngClass]="{'opened': isMenuOpen}" *ngIf="isMenuOpen">
+    <nav class="desktop">
+        <a href="#" class="">Blog</a>
+        <a href="#" class="button">Contato</a>
+    </nav>
+    <nav class="mobile" [ngClass]="{'opened': isMenuOpen}" *ngIf="isMenuOpen">
         <a href="#" class="">Blog</a>
         <a href="#" class="button">Contato</a>
     </nav>
