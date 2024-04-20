@@ -57,6 +57,10 @@ header nav a{
     color: #141c3a;
 }
 
+header nav.desktop a.button:hover{
+    color: var(--background);
+}
+
 @media (width > 600px){
     header{
         flex-direction: row;

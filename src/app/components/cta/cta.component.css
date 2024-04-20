@@ -1,0 +1,52 @@
+section.cta{
+    background-color: var(--foreground);
+}
+
+section.cta .overlay{
+    background-color: var(--background);
+    height: 6rem;
+}
+
+section.cta .container{
+    margin-top: -6rem;
+}
+
+section.cta .area{
+    margin: 0 2rem;
+    padding: 4rem;
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    gap: 4rem;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.5);
+}
+section.cta .area .area-side{
+    flex: 1;
+}
+
+section.cta .title{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+section.cta .subtitle{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+section.cta .button{
+    font-size: 2rem;
+    color: var(--background);
+    text-decoration: none;
+}
+
+@media (width > 900px){
+    section.cta .area{
+        flex-direction: row;
+        align-items: center;
+    }
+}

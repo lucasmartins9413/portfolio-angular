@@ -1,0 +1,98 @@
+section.testimonials{
+    padding: 8rem 2rem;
+    text-align: center;
+    color: var(--primary);
+}
+
+section.testimonials .title{
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 0 0 3rem;
+}
+
+section.testimonials .subtitle{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0 0 4rem;
+}
+
+section.testimonials .slider{
+    max-width: 50rem;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+section.testimonials .slider input{
+    display: none;
+}
+
+section.testimonials .slider .slider-area{
+    width: 200%;
+    display: flex;
+    transition: all ease .5s;
+}
+
+section.testimonials .slider .slider-item{
+    width: 100%;
+}
+
+section.testimonials .slider .slider-item img{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 0 4rem;
+}
+
+section.testimonials .slider .slider-item .desc{
+    font-size: 2rem;
+    line-height: 3.3rem;
+    margin: 0 0 4rem;
+}
+
+section.testimonials .slider .slider-item .name{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0 0 1.5rem;
+}
+
+section.testimonials .slider .slider-item .role{
+    font-size: 1.7rem;
+}
+
+section.testimonials .slider-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 0 0;
+}
+
+section.testimonials .slider-nav label{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0.2rem solid var(--primary-light);
+    transition: all ease 0.5s;
+}
+
+#slider-1:checked ~ .slider-area{
+    margin-left: 0%;
+}
+
+#slider-2:checked ~ .slider-area{
+    margin-left: -100%;
+}
+
+#slider-1:checked ~ .slider-nav .n1{
+    background-color: var(--foreground);
+    border: 1px solid var(--foreground);
+}
+
+#slider-2:checked ~ .slider-nav .n2{
+    background-color: var(--foreground);
+    border: 1px solid var(--foreground);
+}
+
+
+
