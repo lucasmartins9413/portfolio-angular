@@ -1,27 +1,45 @@
-# Portfolio
+# Boilerplate Theme Wordpress
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+![Logo do projeto](https://i.imgur.com/sPI8Mae.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🔥 Introdução
+    Projeto feito pela B7WEB com HTML, CSS e JS. Porém para estudos apliquei o mesmo com Angular
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### ⚙️ Pré-requisitos
 
-## Build
+    Saber HTML, CSS e JS e o básico de Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## 🔨 Guia de instalação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone ou faça o download deste repositório para o seu computador
+2. Instale as dependências
+3. rode o projeto com ng serve 
 
-## Running end-to-end tests
+obs: precisa ter o Angular instalado na máquina
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📦 Tecnologias usadas:
 
-## Further help
+Angular!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos recursos. Abra uma issue ou envie um pull request!
+
+## 👷 Autores
+
+- B7WEB
+- Lucas Martins Nunes
+
+## 📄 Licença
+
+Este tema é distribuído sob a licença GPL-2.0 ou posterior - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+
+## 💡 Expressões de gratidão
+
+* Para suporte, mande um email para lucasnunes9413@gmail.com.
